@@ -9,9 +9,7 @@ import Doner from './components/pages/adddoner/adddoner';
 
 function App() {
   return (<Router>
-    {/* <Nav /> */}
-    {/* "homepage": "https://mayank123904.github.io/blooddonationapp", */}
-     <Routes>
+  <Routes>
     <Route exact path="/" element={<Home />} />
     <Route exact path="/donation" element={<Donateblood/>} />
     <Route exact path="/bloodneed" element={<Finddonors />} />
