@@ -8,9 +8,9 @@ import Doner from './components/pages/adddoner/adddoner';
 // import Bloodbank from './components/pages/bloodbank/bloodbank';
 
 function App() {
-  return (<Router>
+  return (<Router basename='/myapp'>
   <Routes>
-    <Route exact path="/" element={<Home />} />
+    <Route exact path="/myapp" element={<Home />} />
     <Route exact path="/donation" element={<Donateblood/>} />
     <Route exact path="/bloodneed" element={<Finddonors />} />
     <Route exact path="/newdoner" element={<Doner />} />
