@@ -1,0 +1,31 @@
+.donordetails{
+    text-align: center; 
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+  }
+  .donordetails>p{
+    font-size:1rem;
+    font-weight: 500;
+  }
+  .donordetails>input{
+    width: 20rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+  }
+  .donordetails>button{
+    width: 21rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    background-color: rgb(215, 60, 4);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  .donordetails>button:hover{
+    background-color: rgb(164, 49, 7);
+  }

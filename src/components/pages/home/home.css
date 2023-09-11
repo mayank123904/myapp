@@ -1,0 +1,204 @@
+.homeoc{
+    border: 1px solid black;
+}
+.topcont{
+    /* background-image: url(https://t3.ftcdn.net/jpg/02/76/71/88/360_F_276718846_1mDkxI8gb6FrfuwAiPb6OuB4M7BbeuoV.jpg); */
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/796/872/desktop-wallpaper-donation-blood-donor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    width:100%;
+    border: 1px solid black;
+
+}
+/* .registerquant{
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    padding: .5rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: rgb(19, 1, 19);
+    color: white;
+    border-radius: 15px;
+}
+    .sparkle{
+    color: rgb(243, 203, 71);
+    margin: .5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    }
+    .sparkle::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 35%;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+        top: 0;
+        left: 0;
+        z-index: 1;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+        animation: sparkle 2s infinite;
+      }
+      @keyframes sparkle {
+        0% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+      .registerquant:hover .sparkle::before {
+        opacity: 1;
+        animation: sparkle 2s infinite;
+      } */
+
+/* CSS */
+.registerquant {
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    background-color: rgb(19, 1, 19);
+    color: white;
+    border-radius: 15px;
+    position: relative; /* Ensure the .registerquant element can contain the pseudo-element */
+    overflow: hidden; /* Hide the overflow */
+  }
+  
+  .sparkle {
+    color: rgb(243, 203, 71);
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 4px solid rgb(135, 135, 248);
+    padding: .3rem;
+    border-radius: 15px;
+  }
+  
+  /* Adjust the ::before pseudo-element */
+  .sparkle::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:25px; /* Adjust the height to control the spread of the sparkle */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 50%, rgba(255, 255, 255, 0) 100%);
+    top: 35%; /* Center vertically */
+    left: -100%; /* Start off-screen on the left */
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    animation: sparkle 2s linear infinite; /* Increase animation duration for a smoother transition */
+  }
+  
+  @keyframes sparkle {
+    0% {
+      left: -100%; /* Start off-screen on the left */
+      opacity: 0;
+    }
+    50% {
+      left: 100%; /* Move to the right */
+      opacity: 1;
+    }
+    100% {
+      left: 100%; /* Stay on the right */
+      opacity: 0;
+    }
+  }
+  
+  /* Adjust the hover effect */
+  .registerquant:hover .sparkle::before {
+    opacity: 1;
+  }
+
+
+.homeic1{
+    border: 1px solid cyan;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.donateblood{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 15px;
+    background-color: rgb(201, 2, 2);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bloodbank{
+        border: 1px solid black;
+        margin: 1rem;
+        padding: .5rem;
+        border-radius: 15px;
+        background-color: rgb(1, 86, 1);
+        padding-left: 1rem;
+        padding-right: 1rem;
+}
+.requiredblood{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 15px;
+    background-color: rgb(3, 3, 199);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.db{
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.db:hover{
+    text-decoration: underline;
+}
+
+.lad{
+    border: 1px solid orange;
+
+}
+.heading{
+    margin: auto;
+    width: fit-content;
+    padding: .5rem;
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.table{
+margin: auto;
+width: fit-content;
+ margin-bottom: 2rem;
+}
+.table>table{
+    border: 1px solid black;
+}
+.table>table>tr>td{
+    padding-left: .5rem;
+    padding-top: .3rem;
+}
+.columnheading>th{
+    border: 1px solid blue;
+    padding-right: 1rem;
+}
+.bt{
+    color: rgb(129, 2, 2);
+    font-weight: 500;
+    padding-left: .5rem;
+}

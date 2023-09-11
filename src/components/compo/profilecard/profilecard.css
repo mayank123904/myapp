@@ -1,0 +1,20 @@
+.pccont{
+    border: 1px solid black;
+    display: flex;
+    margin: .3rem;
+    padding-left: 5rem;
+    margin-left: -2rem;
+    }
+    .bloodtype{
+        margin: .3rem;
+        color: rgb(152, 4, 4);
+        font-weight: 600;
+    }
+    .donorname{
+        margin: .3rem;
+        width: 9rem;
+        text-align: center;
+    }
+    .donormobile{
+        margin: .3rem;
+    }
